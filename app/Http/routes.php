@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+
+Route::get('/products', 'ProductController@getAll');
+Route::post('/products', 'ProductController@add');
+Route::post('/products/delete/:id', 'ProductController@delete');
