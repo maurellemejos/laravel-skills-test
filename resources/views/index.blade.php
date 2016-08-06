@@ -1,4 +1,7 @@
-<!-- HINT: I used webpack, gulf and react for the scripts. The unminified react source file is located at /public/js/components/app.js. Thank You.-->
+<!--
+HINT: I used webpack, gulf and react for the scripts. The unminified react source file is located at /public/js/components/app.js
+GITHUB: https://github.com/maurellemejos/laravel-skills-test
+-->
 
 <!DOCTYPE html>
 <html>
